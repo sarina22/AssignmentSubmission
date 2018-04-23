@@ -19,16 +19,16 @@ body{
 	background-color:grey; /* sets the background color */
 	border-width: 100px;
 	margin-top:0;
-	height: 100px;
+	height: 100px; /* sets the height of the box*/
 	
 	}
 
 body nav ul.unorder{
-	font-size: 10px;
+	font-size: 10px; /* size of the font*/
 	font-family: 'Volkhov', serif;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	display: flex; 
+	flex-direction: row;/*keeps the items aligned in row*/
+	justify-content: space-around; /* makes  the space around the box*/
 	
 
 }
@@ -38,7 +38,7 @@ body nav ul.unorder{
 	 font-family: 'Volkhov', serif;
      margin-top: 30px;
 	font-size: 15px;
-	list-style: none;
+	list-style: none; /* no any list to the text*/
 	color: white;
 
 }
