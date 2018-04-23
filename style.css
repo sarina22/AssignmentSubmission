@@ -1,0 +1,501 @@
+body{
+	font-size: 10px; /* declare the font size*/
+	background-image: url(mount.jpg);
+	background-size: cover;  /* whole background is covered with the image*/
+	background-repeat: no-repeat; /* the same image does not repeat*/
+}
+
+ .forheader h2{
+	font-family: 'Courgette', cursive;
+	margin-left: 25px; /* */
+	margin-top: 15px;
+	float:left; /* keeps the text to the left*/
+	font-size: 22px;
+	color: white;
+	
+}
+
+.forheader{
+	background-color:grey; /* sets the background color */
+	border-width: 100px;
+	margin-top:0;
+	height: 100px;
+	
+	}
+
+body nav ul.unorder{
+	font-size: 10px;
+	font-family: 'Volkhov', serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+
+}
+
+ nav .unorder li{
+	
+	 font-family: 'Volkhov', serif;
+     margin-top: 30px;
+	font-size: 15px;
+	list-style: none;
+	color: white;
+
+}
+	.hov{
+		color: white;
+		text-decoration: none;
+		}
+
+.hov:hover{
+	background-color: rgba(0,0,0,3);
+	border-radius: 5px 5px; 
+}
+
+.info section{
+	border:10px solid #fff;
+	margin-top: 7%;
+	margin-left: 15%;
+	
+	border-radius: 10%;
+	
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	
+}
+
+
+
+
+
+
+
+.info section .info-1 {
+
+	font-family: 'Archivo Black', sans-serif;
+	
+	margin-left: 30%;
+	
+}
+ .info-1 h1{
+	color:black;
+	animation-name:infi;
+	animation-duration: 5s;
+	transition: 2s;
+	font-size: 40px;
+	
+
+
+}
+@keyframes infi{
+	0%{
+		opacity: 1;
+
+	}50%{
+		opacity: 0.2;
+	}
+	100%{
+		opacity: 1;
+
+	}
+}
+
+.test{
+	
+	font-size: 15px;
+	color: black;
+	border-radius: 30px;
+	
+	
+	
+}
+ .info section .test h1{
+	border:1px solid white;
+	width: 150px;
+	margin-left: 40%;
+	text-align: center;
+	border-radius: 12px;
+	background-color:rgba(0,0,0,0.4);
+}
+
+.description{
+
+	text-align: center;  
+	
+	font-size: 30px;
+
+}
+
+footer{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-left: 8px;
+
+
+}
+
+
+           /*  for the about.html  */
+.for-2{
+	background-image: url(leaf.png);
+	
+}
+
+.second{
+	border:5px solid #fff;
+	
+
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	border-radius: 10%;
+	
+	background-color:rgba(0,0,0,0.4);
+	
+	display: flex;
+	flex-direction: row;
+
+	
+}
+.second-1 .images{
+	border-radius: 10px;
+	height: 400px;
+
+
+}
+
+.second .second-2 h1{
+ 	font-size: 30px;
+ 	color: white;
+ }
+ .second .second-2 p{
+ 	font-size: 20px;
+ 	
+ 	color: white;
+ 	
+ 	font-family: 'Ubuntu Condensed', sans-serif;
+ 	
+ 	 }
+ 
+                /* for the cv.html */
+.for-cv{
+
+	background-image: url(leaf.png);
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.mycv {
+	
+	display: flex;
+	flex-direction: row;
+	margin-top: 8%;
+
+	
+	
+
+}
+.mycv .cv-1 {
+	
+	border-radius:15px;
+	border:3px solid #fff;
+
+	width:45%;
+	margin-right: 10%;
+	
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+
+	font-family: 'Sail', cursive;
+
+		
+}
+.mycv .cv-1 h1{
+	text-align: center;
+	font-family: 'Sail', cursive;
+	
+}
+.mycv .cv-1 ul{
+	font-size: 13px;
+}
+
+.mycv .cv-2{
+	
+	
+	width: 45%;
+	
+	border-radius: 15px;
+	border:3px solid #fff;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	
+	font-family: 'Sail', cursive;
+}
+.cv-2 p{
+	font-size: 15px;
+	
+	
+
+}
+.cv-2 h1{
+  text-align: center;
+}
+
+
+
+/* for social.html*/
+.for-social{
+	background:url(internet.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+.network{
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 40px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-top: 200px;
+	justify-content: space-around;	
+	animation-name: rotate;
+	animation-duration: 3s;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate3d(0.1,0,0,0deg);
+		
+
+	}
+	100%{
+		
+		transform: rotate3d(1,1,1,360deg);
+	}
+}
+
+.for-social .network .fa{
+	padding: 30px;
+	transition: transform 1s, border 1s, background-color 1s;
+	border-radius: 100%;
+}
+.for-social .network .fa:hover{
+	transform: scale(1.5);
+	transform: rotateX(180deg);
+	transform: rotateZ(360deg);
+	border: 0px dotted grey;
+
+}
+
+.for-social .network a{
+	text-decoration: none;
+}
+
+.for-social .network .fa-facebook{ 
+	color: white;
+	font-size: 40px;
+
+}
+.for-social .network .fa-facebook:hover{ 
+	background-color: #3B5998;
+	
+}
+	
+.for-social .network .fa-instagram{
+	color: white;
+	font-size: 40px;
+	
+}
+
+.for-social .network .fa-instagram:hover{
+	
+	
+	background-color: #125688;
+}
+.for-social .network .fa-google{
+	color: white;
+	font-size: 40px;
+	
+}
+.for-social .network .fa-google:hover{
+
+	background-color: #dd4b39;
+}
+.for-social .network .fa-linkedin{
+	color: white;
+	font-size: 40px;
+}
+.for-social .network .fa-linkedin:hover{
+	background-color: #007bb5;
+
+}
+ /*for contact.html*/
+
+ .contactme{
+ 	background-image: url(leaf.png);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+  .con{
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+  	margin-top: 2%;
+  } 
+  .map{
+  	border-radius: 30px;
+  	background-color: rgba(0,0,0,0.5);
+  	text-align: center;
+  	
+
+  } 
+  .form{
+  	
+  	 border-radius: 30px;
+  	 background-color: rgba(0,0,0,0.4);
+  	 color: white;
+  	 text-align: center;
+  	 width: 45%;
+  	  
+  } 
+  /* for the report part*/
+
+.modules{
+	background-image: url(cheetra.jpg);
+	background-size: cover;
+}
+.modules h2{
+	text-align: center;
+}
+.modules .pictured .groupsketch{
+	
+	width: 800px;
+	height: 400px;
+	margin-left: 100px;
+}
+.modules {
+	
+	font-size: 20px;
+}
+.modules .webs-page{
+	margin-left: 100px;
+}
+.modules  .wireframed{
+	margin-left: 300px;
+
+}
+.modules .val{
+	margin-left: 300px;
+}
+
+.modules .covered{
+	margin-left: 300px;
+}
+
+
+@media only screen and (max-width:  650px){
+  		body .forheader header{
+  			display: flex;
+  			flex-direction: column;
+  		}
+  		.forheader header h2{
+  			text-align: center;
+  		}
+  		body .forheader{
+  			height: 40%;
+  		
+  		}
+  		nav .unorder li{
+  			margin-top: unset;
+  			padding: 8px;
+  		}
+  		body nav ul.unorder{
+  			
+  			margin-top: unset;
+  			display: flex;
+  			flex-direction: column;
+  			text-align: center;
+  			
+  	
+  		}
+  		.info section .test{
+  			
+  			margin-right: 50%;
+  		}
+  		.info section .info-1{
+  			margin-left: 8%;
+  
+  		}
+  		.info section{
+  		
+  		
+
+  			font-size: 18px;
+  		}	
+  		.info section{
+  			border: none;
+  		}
+  		.info section .description{
+  			
+  			font-size: 24px;
+
+  		}
+
+  		.second{
+  			display: flex;
+  			flex-direction: column;
+  			margin-left: 5%;
+  			border: none;
+  		}
+  		.second .second-2{
+  			margin-bottom: 30px;
+  		}
+  
+  		/*CV*/
+  		.for-cv .mycv{
+  			display: flex;
+  			flex-direction: column;
+  			margin-left: 0%;
+  		}
+  		.for-cv .mycv .cv-1{
+  			width: 100%; 
+
+  		}
+
+  		.for-cv .mycv .cv-2{
+  			width: 100%;
+  			margin-bottom: 30px;
+  			
+
+  		}
+  		/*Contact*/
+  		.con{
+  			display: flex;
+  			flex-direction: column;
+  		}
+  		
+  		
+  		.con .form{
+  			margin-bottom: 30px;
+  		}
+  		div.form{
+  			
+  			width: 90%;
+  			margin-bottom: 20px;
+  		}
+  		footer{
+  			
+  			max-width: 100%;
+  		}
+  }
+
+
+
